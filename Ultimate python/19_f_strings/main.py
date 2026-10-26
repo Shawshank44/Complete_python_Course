@@ -24,6 +24,7 @@ name = "python"
 
 print(f"Uppercase: {name.upper()}")
 print(f"Length: {len(name)}")
+print(f"first letter is {name[0]}")
 
 '''
 Number formatting
@@ -73,3 +74,18 @@ y = 20
 print(f"{x=}")
 print(f"{y=}")
 print(f"{x + y=}")
+
+
+# f strings with triple quotes
+fname = "john"
+lname = "doe"
+age = 22
+city = "bengaluru"
+msg = f'''
+Hello first name is {fname}
+and my last name is {lname}
+my age is {age}
+I live in {city}
+'''
+print(msg)
+print(type(msg))
