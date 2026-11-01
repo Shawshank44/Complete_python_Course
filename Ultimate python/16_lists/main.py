@@ -108,7 +108,15 @@ num = get_list(lis)
 
 print("List elements from function:", num)
 
-
+# Searching for an element This is one of the most useful applications of for-else.
+numbers = [10, 20, 30, 40, 50]
+search = 30
+for num in numbers:
+    if num == search:
+        print("Element found!")
+        break
+else:
+    print("Element not found!")
 
 # Deletion of elements using "del" keyword
 ele = [10, 20, 30, 40, 50]

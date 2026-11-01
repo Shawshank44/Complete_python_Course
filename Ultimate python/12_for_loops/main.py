@@ -29,3 +29,9 @@ for k in range(1, 100, 2):
 val = 2
 for num in range(11):
 	print(val,"X",num, "=", val*num)
+
+# For loop with else :
+for i in range(5):
+    print(i)
+else:
+    print("Loop completed!")

@@ -19,6 +19,21 @@ for i in range (12):
 	print("5 X", i+1, "=", 5 * (i+1))
 print("Loop exited")
 
+# for loop (else with break) - Here, else does not execute because the loop was terminated by break.
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+else:
+    print("Loop completed!")
+
+# for loop (else with continue) - continue skips the current iteration but does not terminate the loop. Therefore, else executes.
+for i in range(3):
+    if i == 1:
+        continue
+    print(i)
+else:
+    print("Done")
 
 # Emulating the do while in python using break and continue :
 # Break :
