@@ -152,6 +152,23 @@ for key in student:
     print(key, student[key])
 
 
+# 16 Union Dictionary :
+profile = {
+    'name' : 'N/A',
+    'email' : 'N/A',
+    'phone' : 'N/A'
+}
+
+user_input = {
+    "name" : "bob",
+    "phone" : "987-654-3210"
+}
+
+profile |= user_input #union dictionary
+
+print(profile)
+
+
 '''
 Important Dictionary Concepts
 Concept	Example
