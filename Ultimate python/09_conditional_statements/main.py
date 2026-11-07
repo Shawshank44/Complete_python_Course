@@ -73,3 +73,12 @@ if name is None:
     print("Name is not provided")
 else:
     print("Name is provided")
+
+
+# 6. Short hand of if-else conditions  (value_if_true if condition else value_if_false) :
+num = int(input("Enter the number : "))
+condition = "even" if(num % 2 == 0) else "odd"
+print(condition)
+
+
+
