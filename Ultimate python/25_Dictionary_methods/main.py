@@ -122,6 +122,16 @@ for value in student.values():
     print(value)
 
 
+# 12. frozendict() - This creates an immutable dictionary.
+config = frozendict({
+    "name": "Alice",
+    "age": 25
+})
+
+print(config)
+# config["age"] = 30  # TypeError
+
+
 '''
 All Dictionary Methods
 clear()	Removes all items
